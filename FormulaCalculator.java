@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class FormulaCalculator {
     // 将变量替换为数值
     public static String replaceVariables(String formula, Map<String, Double> variableValues) {
-        //test
+        //tes
         // 定义正则表达式，匹配以字母开头的变量
         Pattern pattern = Pattern.compile("\\b[A-Za-z]+\\b");
         Matcher matcher = pattern.matcher(formula);
